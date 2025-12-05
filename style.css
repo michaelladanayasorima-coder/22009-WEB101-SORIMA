@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(180, 255, 200, 0.5),
+        rgba(110, 205, 140, 0.6)
+    ),
+    url("bg.jpg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aero-glass {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 30px rgba(90, 210, 120, 0.4);
+}
+
+.profile-card {
+    width: 500px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 25px;
+    animation: fadeIn 1s ease;
+    color: hsl(137, 59%, 15%);
+}
+
+.glass-circle img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 18px rgba(140, 255, 160, 0.9);
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #0d5523;
+    text-shadow: 0 0 5px rgba(160, 255, 170, 0.6);
+}
+
+.details {
+    opacity: 0.85;
+    color: #1d5f2c;
+}
+
+.divider {
+    width: 70%;
+    height: 1.5px;
+    margin: 20px auto;
+    background: rgba(255,255,255,0.6);
+}
+
+.section h2 {
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+    color: #158f40;
+    text-shadow: 0 0 8px rgba(130, 255, 160, 0.8);
+}
+
+.section {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #0d3a1b;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #0d7d3e;
+    font-weight: 600;
+}
+
+a:hover {
+    text-shadow: 0 0 10px #9cffb2;
+}
+
+.bubble-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(#baffce, #86e59c);
+    border-radius: 30px;
+    border: none;
+    color: lab(17.64% -16.13 7.52);
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(60, 190, 100, 0.4);
+    transition: 0.25s;
+}
+
+.bubble-btn:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(#d2ffdf, #a8f7b7);
+    box-shadow: 0 6px 20px rgba(60, 190, 100, 0.4);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+body {
+    background-image: url("asadal_stock.jpg"); 
+    background-size: cover;    
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
